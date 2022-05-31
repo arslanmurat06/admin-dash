@@ -1,7 +1,10 @@
 import React from "react";
+import Chart from "../../components/chart/Chart";
+import Featured from "../../components/featured/Featured";
 import Navbar from "../../components/navbar/Navbar";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Widget from "../../components/widget/Widget";
+import ListTable from "../../components/table/table";
 import "./home.scss";
 
 function Home() {
@@ -11,12 +14,21 @@ function Home() {
       <div className="homeContainer">
         <Navbar />
         <div className="widgets">
-          <Widget />
-          <Widget />
-          <Widget />
-          <Widget />
+          ß
+          <Widget type="user" />
+          <Widget type="order" />
+          <Widget type="earning" />
+          <Widget type="balance" />
         </div>
-        home container
+
+        <div className="charts">
+          <Featured />
+          <Chart />
+        </div>
+        <div className="listContainer">
+          <div className="listTitle">Latest Transactions</div>
+          <ListTable />
+        </div>
       </div>
     </div>
   );

@@ -8,4 +8,10 @@
 
 ### `npm install @mui/icons-material` for icons
 
+### `npm install --legacy-peer-deps --save react-circular-progressbar` for icons
+
+### `npm install --legacy-peer-deps --save recharts` for line charts
+
+### `npm install --legacy-peer-deps --save @mui/x-data-grid` for datatable
+
 ### `npm start`
