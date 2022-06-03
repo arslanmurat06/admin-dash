@@ -14,7 +14,6 @@ function Home() {
       <div className="homeContainer">
         <Navbar />
         <div className="widgets">
-          ß
           <Widget type="user" />
           <Widget type="order" />
           <Widget type="earning" />
@@ -23,7 +22,7 @@ function Home() {
 
         <div className="charts">
           <Featured />
-          <Chart aspect={2 / 1} />
+          <Chart aspect={2 / 1} title="Last 6 onths revenue" />
         </div>
         <div className="listContainer">
           <div className="listTitle">Latest Transactions</div>
