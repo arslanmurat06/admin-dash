@@ -16,4 +16,4 @@
 
 `npm start`
 
-### [LIVE](legacy-peer-deps=true)
+### [LIVE](https://adminno.netlify.app)
